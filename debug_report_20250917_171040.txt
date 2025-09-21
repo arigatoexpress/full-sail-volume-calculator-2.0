@@ -1,0 +1,33 @@
+
+🔍 LIQUIDITY PREDICTOR - COMPREHENSIVE DEBUG REPORT
+Generated: 2025-09-17T17:10:38.783644
+Duration: 1.44 seconds
+
+📊 OVERALL HEALTH SCORE: 100.0/100
+
+🖥️ SYSTEM INFORMATION:
+- Python Version: 3.13.5
+- Platform: darwin
+- CPU Cores: 14
+- Total Memory: 24.0 GB
+- Available Memory: 2.1 GB
+- Disk Space: 1471.5 GB
+
+🔧 MODULE TEST RESULTS:
+- Modules Tested: 21
+- Successful Imports: 21
+- Failed Imports: 0
+
+⚡ PERFORMANCE TEST RESULTS:
+- ✅ data_loading: 0.01s, 182.2MB
+- ✅ prediction: 0.11s, 184.8MB
+- ✅ visualization: 0.03s, 186.7MB
+
+🌐 API HEALTH RESULTS:
+- ✅ coingecko: 225ms
+- ✅ defillama: 134ms
+
+💡 RECOMMENDATIONS:
+- ✅ All systems operating optimally!
+
+🎉 Debug report completed at 2025-09-17 17:10:40
