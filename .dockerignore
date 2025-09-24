@@ -1,0 +1,79 @@
+# Virtual environment
+liquidity_predictor_env/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Data cache (not needed for deployment)
+data_cache/
+
+# Other app files (only need simple_app.py)
+enhanced_app.py
+app.py
+voting_prep.py
+ai_chat_assistant.py
+enhanced_navigation.py
+enhanced_styles.py
+enhanced_ai_explanations.py
+enhanced_app.py
+
+# All the complex modules (not needed for simple app)
+data_fetcher.py
+data_processor.py
+prediction_models.py
+visualization.py
+granular_analysis.py
+backtesting.py
+macro_analysis.py
+trading_view.py
+epoch_predictor.py
+advanced_features.py
+multi_asset_analyzer.py
+epoch_volume_predictor.py
+live_market_data.py
+robust_live_data.py
+comprehensive_data_aggregator.py
+onchain_analytics.py
+premium_ui.py
+performance_optimizer.py
+arbitrage_engine.py
+multi_source_data_agent.py
+advanced_visualizations.py
+sui_auth.py
+historical_data_manager.py
+sui_yield_optimizer.py
+ai_workbench.py
+vertex_ai_integration.py
+
+# Test files
+test_*.py
+*_test.py
+tests/
+
+# Logs
+*.log
+logs/
