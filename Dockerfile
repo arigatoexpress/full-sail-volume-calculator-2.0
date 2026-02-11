@@ -33,4 +33,4 @@ EXPOSE 8080
 HEALTHCHECK CMD curl --fail http://localhost:8080/_stcore/health || exit 1
 
 # Run the application
-CMD ["streamlit", "run", "simple_app.py", "--server.port=8080", "--server.address=0.0.0.0", "--server.headless=true", "--server.enableCORS=false", "--server.enableXsrfProtection=false"]
+CMD ["streamlit", "run", "simple_app.py", "--server.port=8080", "--server.address=0.0.0.0", "--server.headless=true", "--server.enableCORS=false"]

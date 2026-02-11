@@ -86,7 +86,6 @@ def start_streamlit():
             "--server.port=8501",
             "--server.address=localhost",
             "--server.enableCORS=false",
-            "--server.enableXsrfProtection=false",
             "--browser.gatherUsageStats=false"
         ]
         
