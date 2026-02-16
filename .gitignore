@@ -74,6 +74,7 @@ log/
 data_cache/
 market_cache/
 advanced_cache/
+real_data_cache/
 
 # Database
 *.db

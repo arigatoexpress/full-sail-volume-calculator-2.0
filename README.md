@@ -42,8 +42,8 @@ A comprehensive Python application for predicting liquidity pool volumes on Full
 
 1. **Clone and Setup**
    ```bash
-   git clone <repository-url>
-   cd "Full Sail Volume Calculator 2.0"
+   git clone https://github.com/arigatoexpress/full-sail-volume-calculator-2.0.git
+   cd full-sail-volume-calculator-2.0
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
@@ -359,8 +359,8 @@ MIT License - see LICENSE file for details
 ### Getting Help
 
 - 📧 Email: [your-email@domain.com]
-- 🐛 Issues: [GitHub Issues](your-repo-url/issues)
-- 💬 Discussions: [GitHub Discussions](your-repo-url/discussions)
+- 🐛 Issues: [GitHub Issues](https://github.com/arigatoexpress/full-sail-volume-calculator-2.0/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/arigatoexpress/full-sail-volume-calculator-2.0/discussions)
 
 ---
 

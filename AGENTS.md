@@ -13,4 +13,6 @@ Local Dev:
 - Python: `python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`
 
 Key Paths:
-- `real_data_cache/`
+- `app.py` (Streamlit entrypoint)
+- `data_fetcher.py`, `prediction_models.py`
+- `archive/` (historical artifacts; not on the active path)
