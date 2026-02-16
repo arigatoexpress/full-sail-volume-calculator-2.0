@@ -20,8 +20,9 @@ python run_local.py
 
 ```bash
 # 1. Setup GCP project
-gcloud projects create full-sail-predictor-$(date +%s)
-gcloud config set project YOUR_PROJECT_ID
+export GCP_PROJECT_ID="full-sail-predictor-$(date +%s)"
+gcloud projects create "$GCP_PROJECT_ID"
+gcloud config set project "$GCP_PROJECT_ID"
 
 # 2. Deploy to App Engine (easiest cloud option)
 gcloud app deploy app.yaml
