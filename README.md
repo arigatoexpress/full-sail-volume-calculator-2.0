@@ -2,6 +2,8 @@
 
 A comprehensive Python application for predicting liquidity pool volumes on Full Sail Finance (Sui-based DEX) with advanced charting and data visualization capabilities.
 
+> See `AGENTS.md` for agentic navigation.
+
 ## 🌟 Features
 
 - **📊 Real-time Data Fetching**: DefiLlama and CoinGecko APIs for historical/real-time Sui DEX volumes
@@ -100,7 +102,8 @@ python test_application.py
 3. **Authenticate and Setup**
    ```bash
    gcloud auth login
-   gcloud config set project YOUR_PROJECT_ID
+   export GCP_PROJECT_ID="your-project-id"
+   gcloud config set project "$GCP_PROJECT_ID"
    gcloud auth configure-docker
    ```
 
