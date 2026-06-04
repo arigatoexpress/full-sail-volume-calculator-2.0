@@ -2,7 +2,7 @@ aiohappyeyeballs==2.6.1
     # via
     #   -r requirements.txt
     #   aiohttp
-aiohttp==3.12.15
+aiohttp==3.14.0
     # via -r requirements.txt
 aiosignal==1.4.0
     # via
@@ -34,7 +34,6 @@ blinker==1.9.0
 cachetools==5.5.2
     # via
     #   -r requirements.txt
-    #   google-auth
     #   streamlit
 certifi==2025.8.3
     # via
@@ -82,7 +81,7 @@ gitdb==4.0.12
     # via
     #   -r requirements.txt
     #   gitpython
-gitpython==3.1.45
+gitpython==3.1.50
     # via
     #   -r requirements.txt
     #   streamlit
@@ -94,7 +93,7 @@ google-api-core==2.25.1
     #   google-cloud-core
     #   google-cloud-resource-manager
     #   google-cloud-storage
-google-auth==2.40.3
+google-auth==2.47.0
     # via
     #   -r requirements.txt
     #   google-api-core
@@ -104,7 +103,7 @@ google-auth==2.40.3
     #   google-cloud-resource-manager
     #   google-cloud-storage
     #   google-genai
-google-cloud-aiplatform==1.114.0
+google-cloud-aiplatform==1.133.0
     # via
     #   -r requirements.txt
     #   vertexai
@@ -234,7 +233,7 @@ narwhals==2.5.0
     #   plotly
 networkx==3.5
     # via -r requirements.txt
-nltk==3.9.1
+nltk==3.9.4
     # via
     #   -r requirements.txt
     #   textblob
@@ -278,7 +277,7 @@ patsy==1.0.1
     # via
     #   -r requirements.txt
     #   statsmodels
-pillow==11.3.0
+pillow==12.2.0
     # via
     #   -r requirements.txt
     #   matplotlib
@@ -302,7 +301,7 @@ proto-plus==1.26.1
     #   google-api-core
     #   google-cloud-aiplatform
     #   google-cloud-resource-manager
-protobuf==6.32.1
+protobuf==6.33.5
     # via
     #   -r requirements.txt
     #   google-api-core
@@ -313,11 +312,11 @@ protobuf==6.32.1
     #   grpcio-status
     #   proto-plus
     #   streamlit
-pyarrow==21.0.0
+pyarrow==23.0.1
     # via
     #   -r requirements.txt
     #   streamlit
-pyasn1==0.6.1
+pyasn1==0.6.3
     # via
     #   -r requirements.txt
     #   pyasn1-modules
@@ -402,9 +401,7 @@ sgmllib3k==1.0.0
     #   -r requirements.txt
     #   feedparser
 shapely==2.1.1
-    # via
-    #   -r requirements.txt
-    #   google-cloud-aiplatform
+    # via -r requirements.txt
 six==1.17.0
     # via
     #   -r requirements.txt
@@ -423,7 +420,7 @@ stanio==0.5.1
     #   cmdstanpy
 statsmodels==0.14.5
     # via -r requirements.txt
-streamlit==1.49.1
+streamlit==1.54.0
     # via -r requirements.txt
 tenacity==9.1.2
     # via
@@ -440,7 +437,7 @@ toml==0.10.2
     # via
     #   -r requirements.txt
     #   streamlit
-tornado==6.5.2
+tornado==6.5.5
     # via
     #   -r requirements.txt
     #   streamlit
@@ -468,7 +465,7 @@ tzdata==2025.2
     # via
     #   -r requirements.txt
     #   pandas
-urllib3==2.5.0
+urllib3==2.7.0
     # via
     #   -r requirements.txt
     #   requests
