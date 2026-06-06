@@ -55,7 +55,7 @@ numpy==2.3.3
 packaging==25.0
 pandas==2.3.2
 patsy==1.0.1
-pillow==11.3.0
+pillow==12.2.0
 plotly==6.3.0
 pluggy==1.6.0
 propcache==0.3.2
