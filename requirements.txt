@@ -99,7 +99,7 @@ tqdm==4.67.1
 typing-inspection==0.4.1
 typing_extensions==4.15.0
 tzdata==2025.2
-urllib3==2.5.0
+urllib3==2.7.0
 vertexai==1.43.0
 watchdog==6.0.0
 websocket-client==1.8.0
